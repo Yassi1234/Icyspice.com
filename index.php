@@ -9,6 +9,7 @@ include ('app/controllers/categorias/listado_de_categorias.php');
 include ('app/controllers/almacen/listado_de_productos.php');
 include ('app/controllers/proveedores/listado_de_proveedores.php');
 include ('app/controllers/compras/listado_de_compras.php');
+include ('app/controllers/ventas/listado_de_ventas.php');
 ?>
 
 <!-- Content Wrapper. Contains page content -->
@@ -192,12 +193,12 @@ include ('app/controllers/compras/listado_de_compras.php');
                             <h3><?php echo $contador_de_proveedores;?></h3>
                             <p>Ventas registradas</p>
                         </div>
-                        <a href="<?php echo $URL;?>/ventas">
+                        <a href="<?php echo $URL;?>/ventas/create.php">
                             <div class="icon">
-                            <i class="nav-icon fas fa-basket-shopping-plus"></i>
+                            <i class="nav-icon fas fa-shopping-basket"></i>
                             </div>
                         </a>
-                        <a href="<?php echo $URL;?>/ventas" class="small-box-footer">
+                        <a href="<?php echo $URL;?>/ventas/create.php" class="small-box-footer">
                             Más detalle <i class="fas fa-arrow-circle-right"></i>
                         </a>
                     </div>
